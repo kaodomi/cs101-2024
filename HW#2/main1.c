@@ -11,7 +11,7 @@ int main(){
     fp = fopen("lotto.txt", "w+");
     time_t curtime;
     time(&curtime);
-    fprintf(fp, "======== lotto649 =========\n= %s =", ctime(&curtime));
+    fprintf(fp, "========= lotto649 =========\n");
     
     srand((unsigned) time(NULL));
     for(i=0;i<(n*7);i++){
@@ -31,7 +31,7 @@ int main(){
             fprintf(fp, " --");
         } 
     }
-    fprintf(fp, "\n======== csie@CGU =========\n");
+    fprintf(fp, "\n========= csie@CGU =========\n");
     
     fclose(fp);
     
