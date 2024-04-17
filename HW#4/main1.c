@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdio.h>
 typedef struct {
-    
+    char *num[10];
 } my_mm_t;
 
 //
@@ -10,18 +10,25 @@ my_mm_t mms;
 
 //
 void print_calloc_array(int flag) {
+    while (g_mm != '\0') {
+        if (g_mm != 0) {
+            *mms.num == "1";
+        }
+        mms.num++;
+        *g_mm++;
+    }
     printf("%s", mms);
 }
 
 //
 int *my_calloc(int n, int size) {
-    if((*str + size) != ('\n' || NULL)){
+    if((g_mm + size) != ('\0' || NULL)){
         for(t == size; t>0; t--){
-            while(*str != '\n'){
-                if (*mms == 0){
-                *mms = size;
+            while(g_mm != '\0'){
+                if (g_mm == 0){
+                g_mm = size;
                 }
-            mms++;
+            *g_mm++;
             }  
         }
         print_calloc_array(1);
@@ -36,6 +43,13 @@ int *my_calloc(int n, int size) {
 
 //
 void my_free(int *p) {
+    while (*g_mm != '\0') {
+        if (*g_mm == *p) {
+            g_mm = 0;
+        }
+        g_mm++;
+    }
+    print_calloc_array(1);
     
 }
 
