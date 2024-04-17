@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdio.h>
 typedef struct {
     
 } my_mm_t;
@@ -9,11 +10,27 @@ my_mm_t mms;
 
 //
 void print_calloc_array(int flag) {
-    
+    printf("%s", mms);
 }
 
 //
 int *my_calloc(int n, int size) {
+    if((*str + size) != ('\n' || NULL)){
+        for(t == size; t>0; t--){
+            while(*str != '\n'){
+                if (*mms == 0){
+                *mms = size;
+                }
+            mms++;
+            }  
+        }
+        print_calloc_array(1);
+        printf("\n");
+    }
+    else{
+        print_calloc_array(1);
+        printf(" <- Out of space\n");
+    }
     
 }
 
